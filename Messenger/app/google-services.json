@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614448659528",
+    "project_id": "messenger-c2021",
+    "storage_bucket": "messenger-c2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614448659528:android:78967f294db79b49ed6c7d",
+        "android_client_info": {
+          "package_name": "com.example.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBILIL7Mp3WN8PChZcaar6HWm-wSF8LYvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
