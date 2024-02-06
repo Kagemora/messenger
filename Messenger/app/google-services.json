@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "614448659528",
+    "firebase_url": "https://messenger-c2021-default-rtdb.firebaseio.com",
     "project_id": "messenger-c2021",
     "storage_bucket": "messenger-c2021.appspot.com"
   },

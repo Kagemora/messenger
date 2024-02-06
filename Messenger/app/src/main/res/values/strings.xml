@@ -15,4 +15,6 @@
     <string name="forgot_password_em">Forgot password?</string>
     <string name="reset_password">RESET PASSWORD</string>
     <string name="logout">Logout</string>
+    <string name="reset_link_sent">The reset link gas been successfully sent</string>
+    <string name="type_your_message">Type your message</string>
 </resources>

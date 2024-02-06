@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
-    private final FirebaseAuth mAuth = FirebaseAuth.getInstance();;
+    private final FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private EditText editTextEmail;
     private EditText editTextPassword;
     private Button buttonLogin;
@@ -80,7 +80,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onChanged(FirebaseUser firebaseUser) {
                 if(firebaseUser!=null){
-                    Intent intent = UsersActivity.getIntentUsersActivity(LoginActivity.this);
+                    Intent intent = UsersActivity.getIntentUsersActivity(LoginActivity.this,firebaseUser.getUid());
                     startActivity(intent);
                     finish();
                 }
